@@ -1,35 +1,42 @@
 def create_an_empty_array
-  puppies = []
+  my_example = []
 end
 
 def create_an_array
-  puppies = ["marshall", "chase", "rocky", "rubble","sky"]
+  my_example = [1, 2, 3, 4]
 end
 
 def add_element_to_end_of_array(array, element)
-  puppies.push "zuma"
+  my_example = ["wow", "I", "am", "really", "learning"]
+  my_example.push "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  puppies.unshift "ryder"
+  my_example = ["I", "am", "really", "learning"]
+  my_example.unshift "wow"
 end
 
 def remove_element_from_end_of_array(array)
-  ryder = puppies.pop
+  my_example = ["I", "am", "really", "learning", "arrays!"]
+  arrays! = my_example.pop
 end
 
 def remove_element_from_start_of_array(array)
-  marshall = puppies.shift
+  my_example = ["wow", "I", "am", "really", "learning", "arrays!"]
+  wow = my_example.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  puppies [1]
+    my_example = ["wow", "I", "am", "really", "learning", "arrays!"]
+    my_example.index("am")
 end
 
 def retrieve_first_element_from_array(array)
-  puppies.index("marshall")
+  my_example = ["wow", "I", "am", "really", "learning", "arrays!"]
+  my_example.index("wow")
 end
 
 def retrieve_last_element_from_array(array)
-  puppies.last
+  my_example = ["wow", "I", "am", "really", "learning", "arrays!"]
+  my_example.last
 end
